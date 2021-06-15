@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+.container{
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTeo5qgGpYOq7HXQZQELH5-ZPktu-rKvSYw&usqp=CAU");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height: 850px;
+   
+}
+label
+{
+
+  font-weight: normal;
+}
+
+    .tit {
+    margin: 0 auto;
+    text-align: center;
+    font-family:Lucida Handwriting;
+font-style:normal;
+font-weight: 500;
+font-size:55px;
+color:pink;
+     
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      -webkit-animation:colorchange 20s infinite alternate;
+     
+     
+    }
+    .log
+    {
+    position:absolute; top:10; right:0;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+       
+        color: thistle;
+      }
+     
+      10% {
+       
+        color: snow;
+      }
+     
+      20% {
+       
+        color: thistle;
+      }
+     
+      30% {
+       
+        color: snow;
+      }
+     
+      40% {
+       
+        color: thistle;
+      }
+     
+      50% {
+       
+        color: snow;
+      }
+     
+      60% {
+       
+        color: thistle;
+      }
+     
+      70% {
+       
+        color: snow;
+      }
+      80% {
+     
+        color: thistle;
+      }
+     
+      90% {
+     
+        color: snow;
+      }
+     
+      100% {
+       
+        color: thistle;
+      }
+    }

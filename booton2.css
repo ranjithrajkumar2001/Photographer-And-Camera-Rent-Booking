@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+body{
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+#tops{
+	height:50px;
+}
+i#logo{
+	position: relative;
+    bottom: 70px;
+}
+
+nav.col{
+	height:80px;
+}
+#block{
+	padding-bottom:2rem;
+	margin-left:-1rem;
+	margin-right:-1rem;
+	margin-bottom:0px;
+	position:absolute;
+	width:100%;
+	background-color: transparent;
+}
+
+#lin1{
+	color:black;
+	text-decoration: none;
+}
+#lin2{
+	color:black;
+}
+#lin3{
+	color:black;
+}
+#lin1:hover{
+	color:snow;
+}
+#lin2:hover{
+	color:snow;
+}
+#lin3:hover{
+	color:snow;
+}
+#camera{
+	width:100%;
+	height:600px;
+	object-fit:cover;
+	bottom:200px;
+}
+#booknow{
+	position:relative;
+	bottom:300px;
+	left:720px;
+}
+
+
+/*logpage.css*/
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#top{
+	background-color:transparent;
+	border-radius:20px;
+	height:730px;
+}
+
+/*#signup{
+	margin:0px;
+	position:relative;
+	width:10%;
+	left:73%;
+	top:100px;
+}*/
+
+#profilepic{
+	height:200px;
+	width:200px;
+	position:relative;
+	left:70%;
+	top:80px;
+}
+#login{
+	position:relative;
+	width:500px;
+	top:140px;
+	left:850px;
+}
+#sideimg{
+	margin:0px;
+	width:55%;
+	height:121%;
+	object-fit:cover;
+	position:relative;
+	bottom:85%;
+	right:2.3%;
+	border-radius:20px;
+}

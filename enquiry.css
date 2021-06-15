@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+
+body{
+    font-family: 'Merienda', cursive;
+    overflow-x: hidden;
+}
+nav#navb {
+    height: 100px;
+}
+
+div.searchbar{
+    background-color:grey;
+}
+
+form#categories{
+    position:relative;
+    top:30px;
+    left:20px;
+    height:100px;
+}
+#categories select{
+    width:300px;
+    margin:0px;
+    padding:0px;
+}
+
+div#box2{
+    position:relative;
+    left:320px;
+    bottom:54px;
+}
+
+form button{
+    position:relative;
+    left:41.5%;
+    bottom:107px;
+}
+
+aside.container-fluid{
+    margin:0px;
+    padding:0px;
+}
+div#border{
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#icon-text i{
+    position:relative;
+    right:5px;
+}
+
+section#section {
+    position: relative;
+    left: 100px;
+}
+
+section h3, #divider1{
+    position:relative;
+    bottom:200px;
+    left:20px;
+}
+
+ul#myTab {
+    position: relative;
+    width: 80%;
+    left: 20px;
+    bottom: 160px;
+}
+
+div#myTabContent {
+    position: relative;
+    bottom: 100px;
+    width: 79%;
+    left: 20px;
+}
+div#myTabContent2 {
+      position: relative;
+    bottom: 100px;
+    width: 79%;
+    left: 20px;
+}
+img.img-thumbnail {
+    height: 200px;
+    object-fit: cover;
+    width:200px;
+    margin-bottom: 20px;
+}
+
+img.rounded-circle{
+    border-radius: 50%!important;
+    display: block;
+    position: relative;
+    bottom: 70px;
+}
+
+.card-text>p{
+    margin:0px;
+    width:200px;
+    position:relative;
+    left:200px;
+    top:50px;
+}

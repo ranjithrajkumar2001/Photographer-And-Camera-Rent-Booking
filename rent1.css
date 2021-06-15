@@ -1,0 +1,96 @@
+.container{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height: 850px;
+    
+}
+label
+{
+
+  font-weight: normal;
+}
+.form-group
+{
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+}
+
+    .tit{
+    margin: 0 auto;
+    text-align: center;
+    font-family:Lucida Handwriting;
+	font-style:normal;
+	font-weight: 500;
+	font-size:55px;
+	color:grey;
+      
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: grey;
+      }
+      
+      10% {
+        
+        color: snow;
+      }
+      
+      20% {
+        
+        color: grey;
+      }
+      
+      30% {
+        
+        color: snow;
+      }
+      
+      40% {
+        
+        color: grey;
+      }
+      
+      50% {
+        
+        color: snow;
+      }
+      
+      60% {
+        
+        color: grey;
+      }
+      
+      70% {
+        
+        color: snow;
+      }
+      80% {
+     
+        color: grey;
+      }
+      
+      90% {
+     
+        color: snow;
+      }
+      
+      100% {
+        
+        color: grey;
+      }
+    }
+        .log
+    {
+    position:absolute; top:10; right:0;
+    }

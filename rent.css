@@ -1,0 +1,107 @@
+
+@CHARSET "ISO-8859-1";
+     .tit1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family:Lucida Handwriting;
+font-style:normal;
+font-weight: 500;
+font-size:55px;
+color:grey;
+     
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      -webkit-animation:colorchange 20s infinite alternate;
+     
+     
+    }
+    .log
+    {
+    position:absolute; top:10; right:0;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+       
+        color: grey;
+      }
+     
+      10% {
+       
+        color: snow;
+      }
+     
+      20% {
+       
+        color: grey;
+      }
+     
+      30% {
+       
+        color: snow;
+      }
+     
+      40% {
+       
+        color: grey;
+      }
+     
+      50% {
+       
+        color: snow;
+      }
+     
+      60% {
+       
+        color: grey;
+      }
+     
+      70% {
+       
+        color: snow;
+      }
+      80% {
+     
+        color: grey;
+      }
+     
+      90% {
+     
+        color: snow;
+      }
+     
+      100% {
+       
+        color: grey;
+      }
+    }
+.container{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height: 850px;
+           
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 90%;
+}
+.search
+{
+font-family:Lucida Handwriting;
+font-style:normal;
+background-color:white;
+}
+
+.detail
+{
+text-align:right;
+font-family:verdana;
+color:Grey;
+}
+.card
+{
+width: 160px;
+    height: 150px;
+}
+

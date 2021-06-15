@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+body{
+	margin:0px;
+	padding:0px;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+#navbar{
+	position: relative;
+    bottom: 105%;
+    right: 40px;
+}
+#top{
+	margin: 0;
+	padding: 0px;
+    background-color: transparent;
+	border-radius: 20px;
+	height:750px;
+}
+
+#sideimg{
+	margin: 0px;
+    padding: 0px;
+	position: relative;
+    width: 50%;
+    height: 849px;
+    object-fit: cover;
+    bottom: 13%;
+    border-radius: 20px;
+}
+
+.sign{
+	position:relative;
+	bottom:100%;
+	left: 70%;
+}
+#registerform{
+	position: relative;
+	bottom: 92%;
+    width: 50%;
+    left: 55%;
+}
+
+form div{
+	width: 80%;
+    padding: 0px;
+    margin: 0px;
+    float: none;
+}
+
+form div#dropdown{
+	position:relative;
+	right: 16px;
+}
+
+form input#inputAddress{
+	height:100px;
+}
+#fname,#lname{
+	padding-bottom:20px;
+}
+
+form input#address{
+	width: 98.5%;
+    height: 80px;
+}
